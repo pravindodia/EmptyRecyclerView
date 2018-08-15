@@ -3,21 +3,19 @@ EmptyRecyclerView
  <p>
 # How to use
  Add your recycler view in the relativelayout
-  ```java
-<RelativeLayout
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_below="@+id/header"
-android:layout_margin="10dp">
+```java
+       <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/header"
+                android:layout_margin="10dp">
+                <com.example.emptyrecyclerview.EmptyRecyclerView
+                                                 android:id="@+id/recyclerView"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+                </com.example.emptyrecyclerview.EmptyRecyclerView>
 
-
-<com.example.emptyrecyclerview.EmptyRecyclerView
-android:id="@+id/recyclerView"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
-
-</com.example.emptyrecyclerview.EmptyRecyclerView>
-</RelativeLayout>
+       </RelativeLayout>
 ```
 Then you can use as below
 
