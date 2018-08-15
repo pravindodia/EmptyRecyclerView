@@ -1,8 +1,9 @@
 # EmptyRecyclerView
 EmptyRecyclerView
  <p>
-# How to use
+How to use
  Add your recycler view in the relativelayout
+
 ```java
        <RelativeLayout
                 android:layout_width="match_parent"
