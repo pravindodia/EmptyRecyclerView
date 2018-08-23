@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 /**
- * Created by Jiyyo on 28/07/18.
+ * Created by RulTech Solutions Private Limited on 28/07/18.
  */
 public class EmptyRecyclerView extends RecyclerView {
     private final Context mContext;
